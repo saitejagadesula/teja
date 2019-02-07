@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Cancer treatments</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  
+  color: white;
+
+
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+.top-left {
+  position: absolute;
+  margin: 7%;
+  top: 8px;
+  left: 16px;
+  font-style: oblique;
+  color:rgb(7, 32, 78)
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 500px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 500px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<header>
+        <div class="container">
+                <img src="https://cdn.mageewomens.org/wp-content/uploads/2017/09/16203759/Ovarian-Cancer.jpg" alt="cancer info"  style="width:1250px;height:428px;" >
+                
+               
+                <div class="top-left">
+                    <ul>
+                        <h3>
+                        <li>RADIATIONTHERAPY</li><br>
+                        <li>HORMONETHERAPY</li><br>
+                        <li>IMMUNOTHERAPY</li><br>
+                        <li>CHEMOTHERAPY</li><br>
+                        <li> STEMCELL   </li><br>
+                        <li> SURGERY    </li>
+                        </h3>
+                    </ul>
+                    
+                </div>
+              
+                
+              </div>
+        
+            
+   
+   
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">CHEMOTHERAPY</a></li>
+      <br>
+      <br>
+      <li><a href="#">SURGERY</a></li>
+      <br>
+      <br>
+      <li><a href="#">RADIATIONTHERAPY</a></li>
+      <br>
+      <br>
+      <li><a href="#">HORMONE THERAPY</a></li>
+      <br>
+      <br>
+      <li><a href="#">IMMUNO THERAPY</a></li>
+      <br>
+      <br>
+      <li><a href="#">STEM CELL </a></li>
+
+     </ul>
+  </nav>
+  
+  <article>
+    <h1>CHEMOTHERAPY</h1>
+    <p>Doctors use chemotherapy to kill cancer cells. Usually, the drugs are given intravenously or taken by mouth</p>
+    
+    <h1>SURGERY</h1>
+    <p>Surgery is often the first treatment option if the tumour can be taken out of the body. </p>
+
+    <h1>RADIATIONTHERAPY</h1>
+    <p>Radiation therapy uses high energy rays to kill cancer cells or shrink tumours. </p>
+
+    <h1>HORMONE THERAPY</h1>
+    <p>Hormone therapy is sometimes is used to treat certain kinds of prostate and breast cancers.</p>
+
+    <h1>IMMUNO THERAPY</h1>
+    <p>Immunotherapy is treatment designed to boost the cancer patient’s own immune system to help Fight cancer.</p>
+
+    <h1>STEM CELL</h1>
+    <p>Targeted therapy is treatment that targets the cancer cells and causes less damage to healthy cells.</p>
+  </article>
+</section>
+
+
+</body>
+</html>
